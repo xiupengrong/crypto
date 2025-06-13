@@ -6,13 +6,13 @@ package tls
 
 import (
 	"crypto"
-	"github.com/FISCO-BCOS/crypto/ecdsa"
 	"crypto/ed25519"
 	"crypto/rsa"
 	"crypto/subtle"
-	"github.com/FISCO-BCOS/crypto/x509"
 	"errors"
 	"fmt"
+	"github.com/xiupengrong/crypto/ecdsa"
+	"github.com/xiupengrong/crypto/x509"
 	"io"
 	"sync/atomic"
 )

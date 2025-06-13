@@ -9,9 +9,9 @@ import (
 	"crypto"
 	"crypto/rand"
 	"crypto/sha512"
-	"github.com/FISCO-BCOS/crypto/x509"
 	"errors"
 	"fmt"
+	"github.com/xiupengrong/crypto/x509"
 	"io"
 	"math/big"
 	"net"
@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FISCO-BCOS/crypto/internal/cpu"
+	"github.com/xiupengrong/crypto/internal/cpu"
 )
 
 const (

@@ -20,11 +20,11 @@ import (
 	"crypto"
 	"crypto/aes"
 	"crypto/cipher"
-	"github.com/FISCO-BCOS/crypto/elliptic"
-	"github.com/FISCO-BCOS/crypto/internal/randutil"
 	"crypto/sha512"
 	"encoding/asn1"
 	"errors"
+	"github.com/xiupengrong/crypto/elliptic"
+	"github.com/xiupengrong/crypto/internal/randutil"
 	"io"
 	"math/big"
 )
